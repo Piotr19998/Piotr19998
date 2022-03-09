@@ -1,0 +1,100 @@
+header, nav, main, footer{
+	display: block;
+	width: 1078px;
+}
+
+header {
+	position:relative;
+	background-color:	#4682B4;
+	height: 120px;
+}
+
+body {
+	color: black;
+	background-color:#000000;
+	margin: 0px;
+	text-align: center;
+}
+
+div 
+{
+    width: 1078px; 
+    height: 100px;
+}
+
+nav {
+	background-color:#5F9EA0;
+	height: 150px;
+} 
+
+main {
+	background-color:#48D1CC;
+	height: auto;
+	overflow:hidden; 
+} 
+
+img {
+    position: absolute;
+    width: 150px;
+    max-height:100px;
+    border: 2px dotted #731980;
+    top: 10px;
+    left: 10px;
+    max-height: 80px;  
+} 
+
+#logo {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+} 
+
+footer {
+	background-color:#008080;
+	clear: both ; 
+}
+
+#col-center {
+	background-color:#90EE90;
+	width: 878px;
+    height: auto;
+    float: left;
+}
+
+
+#col-left {
+	background-color:#228B22;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#container {
+	position: relative;
+	margin: auto;
+	width: 1078px;
+	height: auto;
+	overflow: hidden;
+} 
+
+
+td{
+	padding-left:30px;
+	padding-right:30px;
+
+}
+
+tr:nth-child(even){
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+tr:hover {
+	background-color: grey;
+}
+
+th {
+	background-color: gray;
+}
