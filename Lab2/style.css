@@ -1,0 +1,75 @@
+#logo
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+    top:10px;
+    left:3%;
+
+}
+
+#logo img
+{
+    max-height:35px;
+}
+
+.navbar 
+{
+        margin-bottom: 0;
+        border-radius: 0;
+}
+    
+.row.content
+{
+    height: 200px
+}
+
+.sidenav
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: 		#BDB76B;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px)
+{
+    .sidenav
+    {
+        height: auto;
+    }
+    .row.content {height:auto;} 
+}
+
+
+
+td{
+	padding-left:60px;
+	padding-right:60px;
+	text-align: center;
+	position:center;
+}
+
+tr:nth-child(even){
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+tr:hover {
+	background-color: grey;
+}
+
+th {
+	background-color: gray;
+}
+
+footer
+{
+    background-color:		#808000;
+    color: white;
+    padding: 7px;
+}
