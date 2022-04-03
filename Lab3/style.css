@@ -1,0 +1,55 @@
+.navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+}
+
+
+.row.content {
+    height: 200px;
+}
+ 
+ 
+.sidenav{
+    padding-top: 50%;
+    padding-bottom: 2%;
+    background-color: #f1f1f1;
+    height: 80%;
+}
+
+
+@media screen and (max-width: 767px){
+    .sidenav
+    {
+        height: auto;
+    }
+    .row.content {height:auto;} 
+}
+
+
+.carousel-caption{
+    color: white;
+    font-weight: 900;
+}
+
+
+#logo{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top:10px;
+    left:2%;
+
+}
+
+
+#logo img{
+    max-height:35px;
+}
+
+
+
+footer{
+    background-color: #f1f1f1;
+    color: #83d4c0;
+    padding: 5px;
+}
