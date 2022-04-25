@@ -1,0 +1,73 @@
+
+.navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+}
+
+
+.row.content {
+    height: 200px;
+}
+ 
+ 
+ p{
+	 font-size: 24px;
+ }
+
+
+.sidenav{
+    padding-top: 50%;
+    padding-bottom: 2%;
+    background-color: #f1f1f1;
+    height: 80%;
+}
+
+
+@media screen and (max-width: 767px){
+    .sidenav
+    {
+        height: auto;
+    }
+    .row.content {height:auto;} 
+}
+
+
+.carousel-caption{
+    color: white;
+    font-weight: 900;
+}
+.navbar-inverse .nav li a .glyphicon 
+{
+    color: #06435c;
+} 
+
+
+#tło
+{
+	background:gray;
+    font-size:18px; 
+    color:#020433; 
+    font-family: ' Courier New ', monospace;
+}
+
+#logo{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top:10px;
+    left:2%;
+
+}
+
+
+#logo img{
+    max-height:35px;
+}
+
+
+
+footer{
+    
+    color: #83d4c0;
+    padding: 5px;
+}
