@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title> Piotr Kiryczuk 19998 </title>
+	
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+        $( "#tabs" ).tabs();
+        } );
+
+        $( function() {
+        $( "#datepicker" ).datepicker();
+        } );
+
+        $( function() {
+        $("#dialog").dialog({appendTo: "#tabs-3"});
+        } );
+    </script>
+</head>
+
+
+<body>
+    <div id="tabs">
+	
+    <ul>
+    <li><a href="#tabs-1"> Pierwsza zakładka tylko test </a></li>
+    <li><a href="#tabs-2"> Druga zakładka tekst oraz pole do wpisywania daty</a></li>
+    <li><a href="#tabs-3"> Trzecia zakładka tekst umieszczony w oknie dialogowym</a></li>
+    </ul>
+	
+    <div id="tabs-1">
+	<p> Jan Brzechwa </p>
+	<p> Chrzan </p>
+    <p> Płacze chrzan na salaterce,
+		Aż się wszystkim kraje serce.
+		"Panie chrzanie,
+		Niech pan przestanie!"
+
+		Chudy seler płacze także,
+		Mówiąc czule: "Panie szwagrze,
+		Panie chrzanie,
+		Niech pan przestanie!"
+
+		Rozpłakała się włoszczyzna:
+		"Jak to można? Pan mężczyzna,
+		Panie chrzanie,
+		Niech pan przestanie!"
+
+		Pochlipuje bochen chleba:
+		"No, już dosyć! No, nie trzeba!
+		Panie chrzanie,
+		Niech pan przestanie!"
+
+		Ścierka łka nad salaterką:
+		"Niechże pan nie będzie ścierką,
+		Panie chrzanie,
+		Niech pan przestanie!"
+
+		Wszystkich żal ogarnął wielki,
+		Płaczą rondle i rondelki:
+		"Panie chrzanie,
+		Niech pan przestanie!"
+
+		A chrzan na to: "Wolne żarty,
+		Płaczę tak, bo jestem tarty,
+		Lecz mi nie żal tego stanu,
+		A łzy wasze są do chrzanu!"
+    </p>
+    </div>
+	
+	
+    <div id="tabs-2">
+    <p> Data: <input type="text" id="datepicker"></p>
+	<p> Jan Brzechwa </p>
+	<p> Mops </p>
+    <p> W kuchni stał na stole klops,
+		mops do klopsa chyłkiem - hops!
+		Gdy się najadł tak, że spuchł aż,
+		nagle zjawił się pan kucharz.
+
+		Patrzy, blednie - nie ma klopsa!
+		Rzecze tedy groźnie do psa:
+		"Ja przepraszam pana mopsa,
+		pan mi tu za bardzo hopsa,
+		żeby pan nie dostał kopsa!"
+
+		Na to mops wyszczerzył kły
+		i odszczeknął bardzo zły:
+		"Fe! A cóż to za maniery?
+		Jeśli mam być całkiem szczery,
+		na mnie nawet pan nie dmuchnie,
+		bo i tak chcę zmienić kuchnię,
+		a to głównie z tej przyczyny,
+		że nie znoszę siekaniny!"
+		Po czym precz odrzucił sztuciec,
+		warknął, burknął i chciał uciec.
+
+		Kucharz, widząc to, wpadł na psa,
+		porządnego dał mu klapsa,
+		a na obiad zamiast klopsa,
+		spożył - zły jak mops - rolmopsa.
+    </p>
+    </div>
+	
+	
+    <div id="tabs-3">
+        <div id="dialog" title="Tekst w oknie">
+			<p> Jan Brzechwa </p>
+			<p> Tańcowała igła z nitką </p>
+            <p> Tańcowała igła z nitką,
+				Igła - pięknie, nitka - brzydko.
+
+				Igła cała jak z igiełki,
+				Nitce plączą się supełki.
+
+				Igła naprzód - nitka za nią:
+				"Ach, jak cudnie tańczyć z panią!"
+
+				Igła biegnie drobnym ściegiem,
+				A za igłą - nitka biegiem.
+
+				Igła górą, nitka bokiem,
+				Igła zerka jednym okiem,
+
+				Sunie zwinna, zręczna, śmigła.
+				Nitka szepce: "Co za igła!"
+
+				Tak ze sobą tańcowały,
+				Aż uszyły fartuch cały!
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Piotr Kiryczuk 19998 </title>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+        $("h1").addClass("h1");
+        $("h2").addClass("h2");
+        $("p").addClass("p");
+        $("div").addClass("important");
+        });
+        });
+    </script>
+	
+    <style>
+        .important {
+        font-weight: bold;
+        font-size: xx-large;
+        }
+        .blue {
+        color: blue;
+        }
+        .h1 {
+            color:rgb(242, 37, 219);
+        }
+        .h2 {
+            color:rgb(42, 37, 242);
+        }
+        .p {
+            color:rgb(24, 206, 44);
+        }
+    </style>
+	
+</head>
+
+
+<body>
+
+    <h1> Nagłówek 1 </h1>
+    <h2> Nagłówek 2 </h2>
+    <p> Wiersz tesktu. </p>
+    <p> Kolejny wiersz tekstu. </p>
+    <div> To jest tekst specjalny, ani wiersz ani nagłówek </div><br>
+    <button> Modyfikuj </button>
+	
+</body>
+
+</html>
